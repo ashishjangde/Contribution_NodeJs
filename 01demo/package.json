@@ -1,0 +1,14 @@
+{
+  "name": "basic",
+  "version": "1.0.0",
+  "description": "\"nothing\"",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+  },
+  "author": "\"Ashish Jangde\"",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
