@@ -15,3 +15,4 @@ connectDb().then(() => {
 .catch((error) => {
     console.log(`something went wrong ${error}`);
 })
+

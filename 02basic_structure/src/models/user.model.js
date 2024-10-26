@@ -26,10 +26,10 @@ const userSchema = new mongoose.Schema({
         max:[50,"age must be less than 100"]
     }
 
-},{timestamps:true})  // create at and update at
+},{timestamps:true})  // created at and updated at
 
 const User = mongoose.model("User",userSchema);  //users
 
 export default User;
 
-
+//TODO say 

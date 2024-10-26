@@ -1,10 +1,10 @@
 import { Router } from "express";
 import { SignUp , SignIn } from "../controller/user.controller.js";
 
-const UserRouter = Router();
+const userRouter = Router();
 
-UserRouter.post("/signup", SignUp);   //http://localhost:3000/users/signup
-UserRouter.post("/login", SignIn);  //http://localhost:3000/users/login
+userRouter.post("/signup", SignUp);   //http://localhost:3000/users/signup
+userRouter.post("/login", SignIn);  //http://localhost:3000/users/login
 
 
-export default UserRouter;
+export default userRouter;
