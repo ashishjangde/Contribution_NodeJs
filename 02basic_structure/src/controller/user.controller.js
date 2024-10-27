@@ -134,7 +134,7 @@ export const SignIn = async (req, res) => {
             res.status(200)
             .cookie("refreshToken", refreshToken, {
                 httpOnly: true,   // ko access karne ke liye // backend acess only
-                path: "/",  // kis path me access karne ke liye
+                path: "/",  // kis path me set karne ke liye
             })
             .json({
                 data: new APIResponse(userTobeSent, accessToken)
